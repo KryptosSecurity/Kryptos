@@ -4,5 +4,5 @@
     <author email="hemanstifler@gmail.com" href="http://inapplet.com">Evandro Zanatta</author>
     <content src="index.html" />
     <access origin="*" />
-    <icon src="img/kryptos.png" />
+    <icon src="kryptos.png" />
 </widget>
