@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kryptós</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <meta name="theme-color" content="#1a6a8a">
+    <meta name="msapplication-navbutton-color" content="#1a6a8a">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1a6a8a">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kryptós</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" id="save-content" viewBox="0 0 49 49" style="position:absolute;height:25px;top:11px;right: 20px;" fill="#fff"><path d="M27.5 5h6v10h-6z"/><path d="M39.914 0H.5v49h48V8.586L39.914 0zM10.5 2h26v16h-26V2zm29 45h-31V26h31v21z"/><path d="M13.5 32h7a1 1 0 1 0 0-2h-7a1 1 0 1 0 0 2zm0 4h10a1 1 0 1 0 0-2h-10a1 1 0 1 0 0 2zm13 0c.27 0 .52-.11.71-.29.18-.19.29-.45.29-.71s-.11-.521-.29-.71c-.37-.37-1.04-.37-1.41 0a.996.996 0 0 0-.3.71c0 .27.109.52.29.71.189.18.439.29.71.29z"/></svg>
+    </header>
+
+    <section class="main">
+        <label class="box-content" for="content">
+            Mensagem
+            <textarea name="message" id="content" class="content" placeholder="Insira aqui as informações"></textarea>
+        </label>
+    </section>
+
+    <div class="security-check active" id="screen-login">
+
+        <div class="box-password">
+            <div class="title">
+                <span>Kryptós</span>
+            </div>
+            <label for="pw" class="label-pw">
+                Senha de criptografia
+                <input type="password" id="pw" class="pw" placeholder="Chave de criptografia" autofocus autocomplete="false">
+            </label>
+            <button id="button-login" class="button-login">Entrar</button>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/blueimp/JavaScript-MD5/master/js/md5.min.js"></script>
+<script type="text/javascript" src="https://rawgit.com/ricmoo/aes-js/master/index.js"></script>
+
+</html>
