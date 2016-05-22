@@ -1,0 +1,9 @@
+<widget id="com.kryptos.kryptos" version="0.1.0">
+    <name>Kryptós</name>
+    <description>Kryptós é um aplicativo que traz a máxima segurança para seus dados</description>
+    <author email="hemanstifler@gmail.com" href="http://inapplet.com">Evandro Zanatta</author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
+
+<icon src="img/kryptos.png" />
